@@ -32,7 +32,7 @@ describe('sayHiToGrandma(string)', function() {
 
 function sayHiToGrandma(string) {
   if(string.toLowerCase())
-  return "I can't hear you!"
+  return "YES INDEED!"
   
   if(string.toUpperCase())
   return "YES INDEED!"
