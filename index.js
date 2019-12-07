@@ -44,5 +44,5 @@ describe('logWhisper(string)', function() {
 })
 
 function logWhisper(string) {
-  console.log('HELLO') .toLowerCase()
+  console.log(string.toUpperCase)
 }
