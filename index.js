@@ -63,7 +63,6 @@ describe('sayHiToGrandma(string)', function() {
 })
 
 function sayHiToGrandma(string) {
-  is(Low)
   return string
 }
 
