@@ -46,3 +46,5 @@ describe('logWhisper(string)', function() {
 function logWhisper(string) {
   console.log(string.toLowerCase())
 }
+
+FINAL TESTS
