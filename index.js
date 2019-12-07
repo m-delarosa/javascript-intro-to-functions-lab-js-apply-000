@@ -63,7 +63,7 @@ describe('sayHiToGrandma(string)', function() {
 })
 
 function sayHiToGrandma(string) {
-  if(string)
+  if(string = lowercase)
   return string
 }
 
