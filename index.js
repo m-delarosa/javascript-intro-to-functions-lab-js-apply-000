@@ -29,3 +29,20 @@ describe('logShout(string)', function() {
 function logshout(string) {
   console.log('hello') .toUpperCase()
 }
+
+test4
+describe('logWhisper(string)', function() {
+  it('calls console.log() its one argument in all lowercase', function() {
+    const spy = expect.spyOn(console, 'log').andCallThrough()
+
+    logWhisper('HELLO')
+
+    expect(spy).toHaveBeenCalledWith('hello')
+
+    console.log.restore()
+  })
+})
+
+function logWhisper(string) {
+  console.log('HELLO') .toLowerCase()
+}
