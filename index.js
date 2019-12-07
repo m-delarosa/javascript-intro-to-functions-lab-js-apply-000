@@ -26,7 +26,7 @@ describe('logShout(string)', function() {
   })
 })
 
-function logshout(string) {
+function logShout(string) {
   console.log(string).toUpperCase()
 }
 
