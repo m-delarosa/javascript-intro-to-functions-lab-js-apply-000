@@ -9,5 +9,5 @@ describe('whisper(string)', function() {
 })
 
 function whisper(string) {
-  return string.lowercase()
+  return string.toLowerCase()
 }
