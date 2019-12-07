@@ -47,4 +47,4 @@ function logWhisper(string) {
   console.log(string.toLowerCase())
 }
 
-FINAL TESTS
+FINAL TEST
